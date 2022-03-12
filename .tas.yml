@@ -12,7 +12,7 @@ preRun:
     # For eg, npm ci, yarn install
     # - npm install
     - npm i -g lerna
-    - yarn add lerna
+    - yarn global add lerna
     - yarn install
     - yarn run build
 
