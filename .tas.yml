@@ -12,7 +12,6 @@ preRun:
     # For eg, npm ci, yarn install
     # - npm install
     - npm i --save-dev @types/node
-    - export NODE_OPTIONS=--openssl-legacy-provider
     - yarn install
     - lerna run build
 
