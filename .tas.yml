@@ -11,6 +11,7 @@ preRun:
     # change the command according to the package manager used.
     # For eg, npm ci, yarn install
     # - npm install
+    - npm install
     - npm i -g lerna
     - yarn install
 
