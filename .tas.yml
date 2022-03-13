@@ -15,6 +15,7 @@ preRun:
     - npm i -g lerna
     - yarn install
     - cd packages/redux-devtools-cli
+    - ls
 
 postMerge:
   # glob-pattern for identifying the test files
@@ -22,6 +23,6 @@ postMerge:
     # glob-patterns to discover tests to run in case of postMerge
     # - "./unit_test_folder_A/**/*.spec.ts"
     # - "./unit_test_folder_B/**/*.ts"
-    - "./test/*.{ts, tsx}"
+    - "./test/*.ts"
 
 nodeVersion: 16.0.0
