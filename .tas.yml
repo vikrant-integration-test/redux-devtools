@@ -13,7 +13,6 @@ preRun:
     # - npm install
     - npm i -g lerna
     - yarn install
-    - npm run build:all
 
 postMerge:
   # glob-pattern for identifying the test files
