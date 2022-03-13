@@ -26,3 +26,4 @@ postMerge:
     - "./test/*.ts"
 
 nodeVersion: 16.0.0
+configFile: jest.config.js
