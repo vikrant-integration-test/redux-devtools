@@ -23,7 +23,7 @@ postMerge:
     # glob-patterns to discover tests to run in case of postMerge
     # - "./unit_test_folder_A/**/*.spec.ts"
     # - "./unit_test_folder_B/**/*.ts"
-    - "./test/*.ts"
+    - "./test/integration.spec.ts"
 
 nodeVersion: 16.0.0
 configFile: jest.config.js
